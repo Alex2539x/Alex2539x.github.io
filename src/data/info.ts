@@ -1,79 +1,49 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://alextho.com",
   name: "Alex Ho",
   jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Ithaca, New York.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  about: `I'm a sophomore computer science undergraduate based in Ithaca, New York.
+   I have previously worked with Python, SQL, SQLite3, Flask, SQLAlchemy, Docker, AWS, GitHub 
+   (for backend implementations). 
+   Additionally,  I have used Google Cloud (App Engine, Compute Engine for virtual machines), 
+   Heroku (for hosting the summer coding project I completed), Java, Java MVC, Spring Boot, and Thymeleaf.
+   In my free time, I enjoy playing the guitar, violin, exercising. Feel free to reach out!
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
+      name: "Springfield Genius Academy",
+      location: "Springfield, New Jersey, United States",
+      startDate: "Jun 2022",
+      endDate: "Aug 2022",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
-    },
-
-    {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
-    },
-
-    {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "• Developed daily lesson plans for students to foster a learning environment for each child.",
+        "• Taught children elementary and middle school level mathematics and English in a classroom environment to promote learning and development.",
+        "• Responsibly monitored children during field trips and after school activities",
       ],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Cornell University, College of Arts and Sciences",
+      location: "Ithaca, New York, United States",
+      startDate: "Aug 2022",
+      endDate: "May 2026",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "• Bachelor of Arts, Computer Science Major, Business Minor",
+        "• Courses: Discrete Structures, Object-Oriented Programming and Data Structures, Intro.to Computing using Python, Multivariable Calculus, Linear Algebra for Engineers, Intro.to Business Management",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "John P. Stevens High School",
+      location: "Edison, New Jersey, United States",
+      startDate: "Sep 2018",
+      endDate: "Jun 2022",
+      description: [
+        "• GPA: 4.07/4.33 (Unweighted) | SAT: 1560",
+        "• Dual Enrollment (Middlesex College): Intro to Comp Sci Using Java, Computer Applications and Systems",
+      ],
     },
   ],
 
@@ -87,11 +57,17 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Death Master File Searcher",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/dmf-logo.png",
+      githubUrl: "https://github.com/Alex2539x/dmf-demo-heroku",
+      liveUrl: "https://dmf-ssa-demo-c9d79b7083e9.herokuapp.com/",
+    },
+    {
+      title: "CU Bucket (Backend Implementation)",
+      isFeatured: true,
+      thumbnail: "/assets/images/cu-bucket-logo.png",
+      githubUrl: "https://github.com/Alex2539x/cu-bucket-T23",
     },
   ],
 };
