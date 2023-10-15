@@ -2,11 +2,12 @@ export const info = {
   baseUrl: "https://alextho.com",
   name: "Alex Ho",
   jobDescription: "Web Developer",
-  about: `I'm a sophomore computer science undergraduate based in Ithaca, New York.
-   I have previously worked with Python, SQL, SQLite3, Flask, SQLAlchemy, Docker, AWS, GitHub 
+  about: `I'm a sophomore computer science undergraduate based in Ithaca, New York. 
+   I'm familiar with Python, Java, C++, JavaScript, HTML, CSS, SQL, and OCaml.
+   I've previously worked with Python, SQL, SQLite3, Flask, SQLAlchemy, Docker, AWS, GitHub 
    (for backend implementations). 
-   Additionally,  I have used Google Cloud (App Engine, Compute Engine for virtual machines), 
-   Heroku (for hosting the summer coding project I completed), Java, Java MVC, Spring Boot, and Thymeleaf.
+   Additionally, I have used Google Cloud (App Engine, Compute Engine for virtual machines), 
+   Heroku (for hosting the summer coding project I completed), Java MVC, Spring Boot, and Thymeleaf.
    In my free time, I enjoy playing the guitar, violin, exercising. Feel free to reach out!
   `,
 
@@ -45,6 +46,22 @@ export const info = {
         "• Dual Enrollment (Middlesex College): Intro to Comp Sci Using Java, Computer Applications and Systems",
       ],
     },
+  ],
+
+  skills: [
+    {
+      name: "Languages",
+      description: [
+        "Python, Java, C++, JavaScript, HTML, CSS, SQL, OCaml"
+      ],
+      tools: "Google Cloud, GitHub, Heroku, IntelliJ IDEA, VS Code, Ubuntu, Windows OS, Microsoft Office",
+    },
+    {
+      name: "Tools",
+      description: [
+        "Google Cloud, GitHub, Heroku, IntelliJ IDEA, VS Code, Ubuntu, Windows OS, Microsoft Office",
+      ],
+    }
   ],
 
   socialMedia: {
