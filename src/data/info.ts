@@ -89,7 +89,7 @@ export const info = {
       title: "SafeQual Incident Report Enhancement System",
       isFeatured: true,
       thumbnail: "/assets/images/safequal-project.png",
-      githubUrl: "WIP",
+      githubUrl: "https://github.com/Alex2539x/safequal-report-enhancement",
     },
     {
       title: "Death Master File Searcher",
