@@ -61,9 +61,7 @@ export const info = {
       endDate: "May 2026",
       description: [
         "• Bachelor of Arts, Computer Science Major, Business Minor",
-        "• Courses: Intro to AI, Discrete Structures, Object-Oriented Programming \
-        and Data Structures, Data Structures and Functional Programming, \
-        Multivariable Calculus, Linear Algebra for Engineers, Intro to Business Management",
+        "• Courses: Intro to Computer Networks, Intro to Analysis of Algorithms, Intro to Machine Learning, Intro to AI, Intro to Database Systems, Discrete Structures, Object-Oriented Programming and Data Structures, Data Structures and Functional Programming, Multi-variable Calculus, Linear Algebra for Engineers, Intro to Business Management",
       ],
     },
     {
