@@ -2,19 +2,20 @@ export const info = {
   baseUrl: "https://alextho.com",
   name: "Alex Ho",
   jobDescription: "Software Development Engineer",
-  about: `I'm a senior computer science undergraduate based in Ithaca, New York. 
-   I'm experienced with Python, Java, C++, C, JavaScript, HTML, CSS, SQL, and OCaml.<br>
+  about: [`
+   I'm a senior computer science undergraduate based in Ithaca, New York. 
+   I'm experienced with Python, Java, C++, C, JavaScript, HTML, CSS, SQL, and OCaml.<br/>
    During my internship at BNY this summer (2025), I developed a cloud-based Snowflake 
    Streamlit and Native App full-stack project using Python and SnowSQL. 
-   More details on this below!<br>
+   More details on this below!<br/>
    Some of the other technologies I've worked previously with are SQL, SQLite3, Flask, 
-   SQLAlchemy, Docker, AWS, the OpenAI API.<br> 
+   SQLAlchemy, Docker, AWS, the OpenAI API.<br/> 
    I've also utilized many of Google Cloud's services (App Engine, Compute Engine 
    for virtual machines), Heroku (hosting), Java MVC, Spring Boot, and Thymeleaf
-   to implement and host dynamic apps.<br>
-   In my free time, I enjoy playing my violin, playing my guitar, and exercising.<br> 
+   to implement and host dynamic apps.<br/>
+   In my free time, I enjoy playing my violin, playing my guitar, and exercising.<br/> 
    Feel free to reach out!
-  `,
+  `],
 
   experience: [
     {
@@ -24,7 +25,7 @@ export const info = {
       endDate: "Aug 2025",
       description: [
         "• Designed a full stack Snowflake Native App that automated custody-data sharing: built the backend in Snowflake SQL & Snowpark, surfaced a multi-step wizard UI with Snowflake Streamlit, and wired Cortex AISQL + Cortex Search (RAG) to generate context-aware SQL and instant document retrieval.",
-        "• Integrated advanced Snowflake Cortex services - Search, Analyst, and AISQL - so users could chat with the semantic model, lock cross-step inputs, and query gigabyte-scale tables in real time; deployed secure references and privilege grants for five ED5 tables, a FNV positions table, chunking tables (for parsing information), and two Snowflake Cortex search services.",
+        "• Integrated advanced Snowflake Cortex services (Search, Analyst, and AISQL) so users could chat with the semantic model, lock cross-step inputs, and query gigabyte-scale tables in real time; deployed secure references and privilege grants for five ED5 tables, a FNV positions table, chunking tables (for parsing information), and two Snowflake Cortex search services.",
         "• Collaborated closely with mentor manager and cross-functional engineers, driving weekly demos, code reviews, and patch releases that guide the project from concept to a highly-functional, convenient Native App sharable within the company internal marketplace.",
       ],
     },

@@ -4,8 +4,10 @@ import Navbar from "@components/general/Navbar.astro";
 import "../styles/style.css";
 ---
 
-<Navbar />
-<main class="container">
-  <slot />
-</main>
-<Footer />
+<div class="px-24">  <!-- Add desired left/right padding (e.g., px-8) -->
+  <Navbar />
+  <main class="container">
+    <slot />
+  </main>
+  <Footer />
+</div>
